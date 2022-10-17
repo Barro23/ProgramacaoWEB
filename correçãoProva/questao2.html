@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8"/>
+		<title>CorreçãoProva</title>
+		<link rel="stylesheet" href="css/estilo.css" type="text/css"/>
+	
+	</head>
+	<body>
+        <center><h1>CAdastro de pessoa</h1></center>
+        <form>
+            <p>
+                <label>nome:</label>
+                <input type="text" name="txtNome" autofocus required/>
+            </p>
+            <p>
+                <label>Senha:</label>
+                <input type="password" name="txtSenha" maxlength="8"/>
+            </p>
+            <p>
+                <label>Sexo:</label>
+                <input type="radio" name="rbSexo"/><label>Masculino</label>
+                <input type="radio" name="rbSexo"/><label>Feminino</label>
+                <input type="radio" name="rbSexo"/><label>outro</label>
+            </p>
+            <p>
+                <label>quais navegadores vc utiliza?</label>
+                <input type="checkbox" name="chkChrome" /><label>Chrome</label><br/>
+                <input type="checkbox" name="chkInternetExplorer" /><label>ternetExplorer</label><br/>
+                <input type="checkbox" name="chkFireFox" /><label>FireFox</label><br/>
+                <input type="checkbox" name="chkOPera" /><label>OPera</label>
+            </p>
+            <p>
+                <label>Qual estado você Reside?</label>
+                <select>
+                    <option>AC</option>
+                    <option selected>MS</option>
+                    <option>GO</option>
+                </select>
+            </p> 
+            <p>
+                <label>qual sua data de nascimento?</label>
+                <input type="date" name="nascimento"/>
+            </p>   
+            <p>
+                <label>deixe um breve comentario sobre vc:</label><br/>
+                <textarea rows="10" cols="50"></textarea>
+            </p>  
+            <p>
+                <input type="submit" name="enviar"/>
+                <input type="reset" name="apagar"/>
+            </p>      
+        </form>
+    </body>
+</html>
