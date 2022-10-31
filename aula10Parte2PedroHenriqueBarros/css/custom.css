@@ -1,0 +1,7 @@
+section{
+    border: 2px solid blue;
+}
+section>article{
+    border: 2px solid gray;
+    height: 200px;
+}
